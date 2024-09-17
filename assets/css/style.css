@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.raleway_font {
+  font-family: "Raleway", sans-serif;
+}
+.inter_font {
+  font-family: "Inter", sans-serif;
+}
+.box_card:hover {
+  border: 1px solid #f7b103;
+  background: #0d0a01;
+  transition: all 300ms linear;
+}
+.box_card:hover .cards_icon svg path {
+  fill: #000000 !important;
+  transition: all 300ms linear;
+}
+.box_card:hover .cards_icon {
+  background-color: #f7b103 !important;
+  transition: all 300ms linear;
+}
+.sliderFirst {
+  background-image: url(../images/png/slider_1_img_1.png);
+  background-repeat: no-repeat;
+  background-size: 364px;
+  align-items: end baseline;
+  border-radius: 20px;
+}
+
+.sliderSecond {
+  background-image: url(../images/png/slider_1_img_2.png);
+  background-repeat: no-repeat;
+  background-size: 364px;
+  border-radius: 20px;
+  align-items: end baseline;
+}
+
+.sliderThird {
+  background-image: url(../images/png/slider_1_img_5.png);
+  background-repeat: no-repeat;
+  background-size: 364px;
+  align-items: end baseline;
+  border-radius: 20px;
+}
+.dateStarsSlider .slick-list .slick-track {
+  display: flex;
+  gap: 20px;
+  max-width: 1140px !important;
+  width: 100% !important;
+}
+.dateStarsSlider .slick-prev::before {
+  content: url(../images/svg/left_arrow.svg) !important;
+  font-size: 20px !important;
+}
+.dateStarsSlider .slick-next::before {
+  content: url(../images/svg/right_arrow.svg) !important;
+  font-size: 20px !important;
+}
+.dateStarsSlider .slick-next {
+  right: -40px !important;
+}
+.dateStarsSlider .slick-prev {
+  left: -40px !important;
+}
+
+/* slider bottom */
+.sliderBottom .slick-list .slick-track {
+  display: flex;
+  gap: 24px;
+}
+.prev {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.next {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.next:hover {
+  background-color: white;
+}
+
+.next:hover path {
+  fill: black;
+}
+
+.prev:hover {
+  background-color: white;
+}
+
+.prev:hover path {
+  fill: black;
+}
