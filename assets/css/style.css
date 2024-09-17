@@ -6,6 +6,10 @@
 .inter_font {
   font-family: "Inter", sans-serif;
 }
+.container {
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
 .box_card:hover {
   border: 1px solid #f7b103;
   background: #0d0a01;
@@ -48,6 +52,7 @@
   max-width: 1140px !important;
   width: 100% !important;
 }
+
 .dateStarsSlider .slick-prev::before {
   content: url(../images/svg/left_arrow.svg) !important;
   font-size: 20px !important;

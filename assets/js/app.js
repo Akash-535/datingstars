@@ -4,7 +4,7 @@ $(".dateStarsSlider").slick({
   speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,
- 
+  variableWidth: true,
     responsive: [
     {
       breakpoint: 1024,
@@ -20,13 +20,15 @@ $(".dateStarsSlider").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        infinite: true,
       },
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
+        infinite: true,
       },
     },
     {
@@ -34,6 +36,7 @@ $(".dateStarsSlider").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        infinite: true,
       },
     },
  
@@ -48,6 +51,7 @@ $(".sliderBottom").slick({
   slidesToScroll: 1,
   nextArrow: ".next",
   prevArrow: ".prev",
+ 
   responsive: [
     {
       breakpoint: 1024,

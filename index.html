@@ -29,8 +29,8 @@
     </script>
 </head>
 
-<body class="bg-black">
-    <section class=" relative flex justify-center items-center pt-[190px]">
+<body class="bg-black ">
+    <section class=" relative flex justify-center items-center pt-[190px] max-lg:overflow-hidden">
         <div class="top_img">
             <img class="absolute top-0 right-0" src="./assets/images/svg/star_top.svg" alt="top">
             <img class="absolute top-0 right-0" src="./assets/images/png/shadow_top.png" alt="top">
@@ -259,7 +259,7 @@
         </div>
     </section>
     <!-- ==slider 1== -->
-    <section class="pt-[150px]  relative z-20">
+    <section class="pt-[150px]  relative z-20 px-8">
         <div class="container max-w-[1140px] mx-auto">
             <div class="heading text-center pb-[60px]">
                 <h1 class="text-[40px] font-semibold raleway_font text-white">
@@ -274,7 +274,7 @@
                 <div class="sliderOne w-full max-w-[364px]">
                     <div class="sliderFirst px-[27px] pt-[187px] pb-6">
                         <div
-                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[300px] max-xl:w-[280px] ">
+                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[300px] max-xl:w-[280px] max-md:w-[230px] ">
                             <p class="text-base font-normal inter_font text-white">
                                 Affiliate World Europe
                             </p>
@@ -296,7 +296,7 @@
                 <div class="sliderTwo w-full max-w-[364px]">
                     <div class="sliderSecond px-[27px] pt-[187px] pb-6">
                         <div
-                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[310px]">
+                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[300px] max-xl:w-[280px] max-md:w-[230px] ">
                             <p class="text-base font-normal inter_font text-white">
                                 Affiliate World Europe
                             </p>
@@ -318,7 +318,7 @@
                 <div class="sliderTwo w-full max-w-[364px]">
                     <div class="sliderSecond px-[27px] pt-[187px] pb-6">
                         <div
-                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[310px]">
+                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[300px] max-xl:w-[280px] max-md:w-[230px] ">
                             <p class="text-base font-normal inter_font text-white">
                                 Affiliate World Europe
                             </p>
@@ -340,7 +340,7 @@
                 <div class="sliderThree w-full max-w-[364px]">
                     <div class="sliderThird px-[27px] pt-[187px] pb-6">
                         <div
-                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[310px]">
+                            class="slider_card flex flex-col border border-[#727479] p-2.5 rounded-xl backdrop-blur-sm w-[300px] max-xl:w-[280px] max-md:w-[230px] ">
                             <p class="text-base font-normal inter_font text-white">
                                 Affiliate World Europe
                             </p>
@@ -361,14 +361,16 @@
                 </div>
             </div>
             <div class="button flex justify-center items-center pt-[60px]">
-                <button class="px-6 py-3 bg-YellowishOrange raleway_font text-base font-semibold rounded-xl">Book A
+                <button
+                    class="px-6 py-3 bg-YellowishOrange raleway_font text-base font-semibold rounded-xl  hover:bg-white hover:text-[#F7B103] duration-300 ease-linear">Book
+                    A
                     Meeting With
                     Our Team!</button>
             </div>
         </div>
     </section>
     <!-- ==form== -->
-    <section class="bg-black py-[150px] relative">
+    <section class=" py-[150px] relative">
         <div class="layer_img">
             <img class="absolute top-0 right-0" src="./assets/images/svg/star_right.svg" alt="top">
             <img class="absolute bottom-7 right-0" src="./assets/images/png/shadow_right.png" alt="top">
@@ -380,23 +382,26 @@
                 <div class="lg:w-1/2 w-full px-3 content-center">
                     <div class="max-w-[474px]">
                         <div class="gap-y-10 flex flex-col">
-                            <div class="gap-4 flex flex-col">
-                                <p class="text-white text-[40px] font-semibold">Let’s work together</p>
-                                <p class="text-white text-base font-normal opacity-70">Building long term relationships
+                            <div class="gap-4 flex flex-col max-md:text-center">
+                                <p class="text-white text-[40px] font-semibold raleway_font">Let’s work together</p>
+                                <p class="text-white text-base font-normal opacity-70 inter_font">Building long term
+                                    relationships
                                     with advertisers
                                     and publisher, is at core of our business</p>
                             </div>
-                            <div class="gap-4 flex flex-col">
-                                <p class="text-white text-2xl font-semibold">Get in touch</p>
-                                <p class="text-white text-base font-normal opacity-70">Feel free to send us an email or
+                            <div class="gap-4 flex flex-col max-md:text-center">
+                                <p class="text-white text-2xl font-semibold raleway_font">Get in touch</p>
+                                <p class="text-white text-base font-normal opacity-70 inter_font">Feel free to send us
+                                    an email or
                                     complete the
                                     form,
                                     we are always happy to answer your questions and meet you.</p>
                             </div>
                         </div>
-                        <div class="flex gap-3 mt-5">
+                        <div class="flex gap-3 mt-5 max-md:text-center max-md:justify-center">
                             <img src="./assets/images/svg/mail.svg" alt="mail">
-                            <a class="text-white" href="mailto:support@datingstars.com">support@datingstars.com</a>
+                            <a class="text-white"
+                                href="mailto:support@datingstars.com inter_font">support@datingstars.com</a>
                         </div>
                     </div>
                 </div>
@@ -406,24 +411,26 @@
                             <div class="gap-5 flex flex-col">
                                 <div class="gap-5 flex max-sm:flex-wrap">
                                     <input
-                                        class="bg-transparent outline-none border border-[#828282] sm:w-1/2 w-full py-3 px-5 rounded-[10px] text-base font-normal text-white"
+                                        class="bg-transparent outline-none border border-[#828282] sm:w-1/2 w-full py-3 px-5 rounded-[10px] text-base font-normal text-white inter_font"
                                         type="text" placeholder="Firsr Name" required>
                                     <input
-                                        class="bg-transparent outline-none border border-[#828282] sm:w-1/2 w-full py-3 px-5 rounded-[10px] text-base font-normal text-white"
+                                        class="bg-transparent outline-none border border-[#828282] sm:w-1/2 w-full py-3 px-5 rounded-[10px] text-base font-normal text-white inter_font"
                                         type="text" placeholder="Last Name" required>
                                 </div>
                                 <input
-                                    class="w-full bg-transparent outline-none border border-[#828282] py-3 px-5 rounded-[10px] text-base font-normal text-white"
+                                    class="w-full bg-transparent outline-none border border-[#828282] py-3 px-5 rounded-[10px] text-base font-normal text-white inter_font"
                                     type="email" placeholder="Email" required>
                                 <input
-                                    class="w-full bg-transparent outline-none border border-[#828282] py-3 px-5 rounded-[10px] text-base font-normal text-white"
+                                    class="w-full bg-transparent outline-none border border-[#828282] py-3 px-5 rounded-[10px] text-base font-normal text-white inter_font"
                                     type="number" placeholder="Phone Number">
                                 <textarea
-                                    class="p-5 w-full min-h-[140px] bg-transparent border border-[#828282] rounded-[10px]"
+                                    class="p-5 w-full min-h-[140px] bg-transparent border border-[#828282] rounded-[10px] inter_font"
                                     placeholder="Your message..."></textarea>
                             </div>
-                            <div>
-                                <button class="py-3 px-6 rounded-xl bg-[#F7B103]">Send Message</button>
+                            <div class="max-md:flex max-md:justify-center ">
+                                <button
+                                    class="py-3  px-6 rounded-xl text-base font-semibold raleway_font bg-[#F7B103] hover:bg-white hover:text-[#F7B103] duration-300 ease-linear">Send
+                                    Message</button>
                             </div>
                         </form>
                     </div>
@@ -434,7 +441,7 @@
     <!-- ==slider 2== -->
     <section class="flex justify-center items-center relative">
         <img class="absolute -bottom-24 right-0" src="./assets/images/png/layer_bottom.png" alt="img">
-        <img class="absolute bottom-0" src="./assets/images/png/bottom_slider_image.png" alt="image">
+        <img class="absolute -bottom-24" src="./assets/images/png/bottom_slider_image.png" alt="image">
         <div class="container max-w-[1140px] mx-auto ">
             <div class="heading text-center">
                 <h3 class="text-[40px] font-semibold raleway_font text-white max-w-[510px] mx-auto pb-[60px]">Here’s
